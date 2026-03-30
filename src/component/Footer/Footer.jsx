@@ -7,7 +7,7 @@ import twitterImage from '../../../img-assets/Twitter.png'
 const Footer = () => {
   return (
     <div className='bg-[#101727] text-white px-22 py-24'>
-       <div className='grid grid-cols-5 gap-20 '>
+       <div className='grid md:grid-cols-5 gap-20 '>
       <div className='space-y-4'>
         <h4 className='font-bold text-2xl'>DigiTools</h4>
         <p className='text-xs opacity-60'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
