@@ -3,6 +3,7 @@ import Banner from './component/Banner/Banner'
 import Navbar from './component/Navbar/Navbar'
 import Rating from './component/Rating/Rating'
 import StepSection from './component/StepSectoin/StepSection'
+import Workflow from './component/Workflow/Workflow'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Banner></Banner>
       <Rating></Rating>
       <StepSection></StepSection>
+      <Workflow></Workflow>
      
     </>
   )
