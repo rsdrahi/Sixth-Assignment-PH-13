@@ -5,7 +5,7 @@ import aiImage from '../../../img-assets/ai.png'
 
 const Banner = () => {
   return (
-    <div className='flex justify-between items-center max-w-7xl m-auto mt-20'>
+    <div className='md:flex justify-between items-center max-w-7xl m-auto mt-20'>
       <div className='banner-start space-y-6'>
         <button className='rounded-full px-6 py-2 font-medium bg-gradient-to-r from-[#d2cdf7] to-[#E1E7FF] flex gap-2'>
           <img src={aiImage} alt="" className='w-6 h-6'/>
