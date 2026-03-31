@@ -20,7 +20,7 @@ const Banner = () => {
 
         <button className='btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white p-6 font-bold'>Explore Products</button>
 
-        <button className='btn rounded-full p-6 border border-purple-500 text-purple-500 font-bold'><img src={playBtn} alt="" />Watch Demo</button>
+        <button className='btn btn-outline hover:bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:text-white rounded-full p-6 border border-purple-500 text-purple-500 font-bold'><img src={playBtn} alt=""  className=''/>Watch Demo</button>
 
       </div>
       </div>
