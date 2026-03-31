@@ -10,7 +10,7 @@ const StepSection = () => {
         <h3 className='text-[#101727] font-extrabold text-4xl'>Get Started in 3 Steps</h3>
         <p className='text-xs text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
       </div>
-      <div className='md:grid grid-cols-3 gap-8 max-w-7xl m-auto'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 max-w-7xl m-auto'>
         <div className='rounded-lg shadow border-rounded p-12 space-y-4 text-center bg-white relative'>
            <div className='bg-purple-600 w-8 h-8 rounded-full flex justify-center items-center text-white absolute top-4 right-2'>1</div>
           <div className='bg-purple-200 w-22 h-22 rounded-full flex items-center justify-center mx-auto'><img src={user} alt="" /></div>

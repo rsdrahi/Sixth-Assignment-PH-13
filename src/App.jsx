@@ -1,4 +1,5 @@
 import { Suspense } from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Banner from './component/Banner/Banner'
 import Footer from './component/Footer/Footer'
@@ -8,6 +9,8 @@ import Rating from './component/Rating/Rating'
 import StepSection from './component/StepSectoin/StepSection'
 import Workflow from './component/Workflow/Workflow'
 import Products from './component/Products/Products'
+import Cart from './component/Cart/Cart'
+import Tabs from './component/Tabs/Tabs'
 
 const pricingPromise = fetch('pricingData.json')
   .then(res => res.json())
@@ -21,14 +24,22 @@ const getProducts = async () => {
 const productsPromise = getProducts();
 
 function App() {
+
+  const [activeTab, setActiveTab] = useState("product")
+  // console.log(activeTab)
+  const [carts, setCarts] = useState([])
   
   return (
     <>
 
-      <Navbar></Navbar>
+      <Navbar carts={carts}></Navbar>
       <Banner></Banner>
       <Rating></Rating>
-      <Products productsPromise={productsPromise}></Products>
+      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} cartCount={carts.length}></Tabs>
+      {activeTab === "product" && <Products productsPromise={productsPromise}
+        carts={carts} setCarts={setCarts}
+      ></Products>}
+      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
       <StepSection></StepSection>
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
         <Pricing pricingPromise={pricingPromise}></Pricing>

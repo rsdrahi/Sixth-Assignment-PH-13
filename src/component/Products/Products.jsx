@@ -1,10 +1,10 @@
 import React, { use } from 'react';
 import ProductCard from './ProductCard';
 
-const Products = ({ productsPromise }) => {
+const Products = ({ productsPromise, carts, setCarts }) => {
   
   const products = use(productsPromise)
-  console.log(products);
+  // console.log(products);
 
   return (
     <div className='max-w-7xl m-auto '>
@@ -14,11 +14,11 @@ const Products = ({ productsPromise }) => {
       <p>Choose from our curated collection of premium digital products designed <br />to boost your productivity and creativity.</p>
       </div>
       
-         <div className='grid grid-cols-3 mt-16 gap-8'>
+         <div className='grid lg:grid-cols-3 md:grid-cols-2 mt-16 gap-8'>
         {
           products.map(product => <ProductCard
             key={product.id}
-            product={product}></ProductCard>)
+            product={product} carts={carts} setCarts={setCarts}></ProductCard>)
         }
       </div>
 

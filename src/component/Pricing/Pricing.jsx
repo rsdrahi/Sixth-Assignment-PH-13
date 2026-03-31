@@ -12,7 +12,7 @@ const Pricing = ({ pricingPromise }) => {
         <h2 className='text-5xl font-bold'>Simple, Transparent Pricing</h2>
       <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
-      <div className='grid md:grid-cols-3 gap-8'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-8'>
         {
           pricingData.map(pricing => <PricingCard
             key={pricing.id}

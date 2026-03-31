@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "ai-writing"
+    "icon": "/img-assets/AiWriting.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "design-pack"
+    "icon": "/img-assets/design.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "stock-assets"
+    "icon": "/img-assets/premium.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "automation"
+    "icon": "/img-assets/automation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "resume"
+    "icon": "/img-assets/resume.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "social-media"
+    "icon": "/img-assets/social.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Drag & drop editor",
       "Built-in effects"
     ],
-    "icon": "video-edit"
+    "icon": "/img-assets/premium.png"
   },
   {
     "id": 8,
@@ -117,6 +117,6 @@
       "Responsive design",
       "SEO tools"
     ],
-    "icon": "website-builder"
+    "icon": "/img-assets/automation.png"
   }
 ]

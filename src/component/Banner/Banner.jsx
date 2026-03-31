@@ -5,7 +5,7 @@ import aiImage from '../../../img-assets/ai.png'
 
 const Banner = () => {
   return (
-    <div className='md:flex justify-between items-center max-w-7xl m-auto mt-20'>
+    <div className='flex flex-col md:flex-row  justify-between items-center max-w-7xl m-auto mt-20'>
       <div className='banner-start space-y-6'>
         <button className='rounded-full px-6 py-2 font-medium bg-gradient-to-r from-[#d2cdf7] to-[#E1E7FF] flex gap-2'>
           <img src={aiImage} alt="" className='w-6 h-6'/>
@@ -16,7 +16,7 @@ const Banner = () => {
              Access premium AI tools, design assets, templates, and productivity <br />   software—all in one place. Start creating faster today. <br />Explore Products 
         </p>
       
-      <div className='flex items-center gap-4'>
+      <div className='flex flex-col md:flex-row items-center gap-4'>
 
         <button className='btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white p-6 font-bold'>Explore Products</button>
 
