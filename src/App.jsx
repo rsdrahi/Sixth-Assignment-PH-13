@@ -7,9 +7,18 @@ import Pricing from './component/Pricing/Pricing'
 import Rating from './component/Rating/Rating'
 import StepSection from './component/StepSectoin/StepSection'
 import Workflow from './component/Workflow/Workflow'
+import Products from './component/Products/Products'
 
 const pricingPromise = fetch('pricingData.json')
-.then(res => res.json())
+  .then(res => res.json())
+
+
+const getProducts = async () => {
+  const res = await fetch("/products.json")
+  return res.json();
+}
+  
+const productsPromise = getProducts();
 
 function App() {
   
@@ -19,6 +28,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Rating></Rating>
+      <Products productsPromise={productsPromise}></Products>
       <StepSection></StepSection>
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
         <Pricing pricingPromise={pricingPromise}></Pricing>

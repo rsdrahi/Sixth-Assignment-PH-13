@@ -4,7 +4,7 @@ import PricingCard from '../PricingCard/PricingCard';
 const Pricing = ({ pricingPromise }) => {
   
   const pricingData = use(pricingPromise);
-  console.log(pricingData)
+  // console.log(pricingData)
 
   return (
     <div className='max-w-7xl m-auto'>
