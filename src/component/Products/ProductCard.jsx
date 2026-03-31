@@ -16,7 +16,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
 
   return (
 
-    <div className='rounded-lg border-gray-500 shadow gap-6 p-6 space-y-6 pt-8'>
+    <div className='rounded-lg border-gray-500 shadow gap-6 p-6 space-y-6 py-12 '>
       
       <div className='flex justify-between items-center'>
         <img src={icon} alt="" className=''/>

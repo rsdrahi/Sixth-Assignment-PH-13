@@ -7,7 +7,7 @@ const Products = ({ productsPromise, carts, setCarts }) => {
   // console.log(products);
 
   return (
-    <div className='max-w-7xl m-auto '>
+    <div className='max-w-7xl m-auto'>
       
       <div className='text-center space-y-6'>
         <h2 className='font-bold text-5xl'>Premium Digital Tools</h2>
