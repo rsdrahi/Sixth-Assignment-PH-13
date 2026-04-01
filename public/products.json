@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "/img-assets/AiWriting.png"
+    "icon": "https://i.ibb.co.com/4wpFNbcj/aiwriting.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "/img-assets/design.png"
+    "icon": "https://i.ibb.co.com/CKXB0Szy/design.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "/img-assets/premium.png"
+    "icon": "https://i.ibb.co.com/twyCgg3h/premium.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "/img-assets/automation.png"
+    "icon": "https://i.ibb.co.com/1fXLVFpY/automation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "/img-assets/resume.png"
+    "icon": "https://i.ibb.co.com/xtL1WjTr/resume.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "/img-assets/social.png"
+    "icon": "https://i.ibb.co.com/3YT9sGg1/social.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Drag & drop editor",
       "Built-in effects"
     ],
-    "icon": "/img-assets/premium.png"
+    "icon": "https://i.ibb.co.com/4wpFNbcj/aiwriting.png"
   },
   {
     "id": 8,
@@ -117,6 +117,6 @@
       "Responsive design",
       "SEO tools"
     ],
-    "icon": "/img-assets/automation.png"
+    "icon": "https://i.ibb.co.com/1fXLVFpY/automation.png"
   }
 ]
