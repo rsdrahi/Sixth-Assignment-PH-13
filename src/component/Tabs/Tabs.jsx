@@ -6,7 +6,7 @@ const Tabs = ({ activeTab, setActiveTab, cartCount }) => {
 
   return (
 
-<div className="tabs tabs-box justify-center bg-transparent">
+<div className="tabs tabs-box justify-center bg-transparent p-6 rounded-full shadow max-w-7xl m-auto my-6">
       <input
         type="radio" name="my_tabs_1"
         className={`tab full w-36 rounded-full

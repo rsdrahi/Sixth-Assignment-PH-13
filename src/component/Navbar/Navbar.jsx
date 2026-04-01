@@ -7,11 +7,11 @@ const Navbar = ({carts}) => {
         <h3 className='text-3xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  bg-clip-text text-transparent'>DigiTools</h3>
         <div>
           <ul className='flex flex-col md:flex-row gap-8 font-semibold text-[#101727]'>
-            <li><a href="">Products</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">FAQ</a></li>
+            <li><a href="" className='hover:text-purple-500'>Products</a></li>
+            <li><a href="" className='hover:text-purple-500'>Features</a></li>
+            <li><a href="" className='hover:text-purple-500'>Pricing</a></li>
+            <li><a href="" className='hover:text-purple-500'>Testimonials</a></li>
+            <li><a href="" className='hover:text-purple-500'>FAQ</a></li>
           </ul>
           </div>
           <div className='flex flex-col md:flex-row gap-5 items-center'>
@@ -26,7 +26,7 @@ const Navbar = ({carts}) => {
         </div>
 
         <h3 className='font-semibold text-[#101727]'>
-          <a href="">Login</a></h3>
+          <a href="" className='hover:text-purple-500'>Login</a></h3>
             <button className='btn btn-ghost rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white '>Get Started</button>
           </div>
       </nav>
